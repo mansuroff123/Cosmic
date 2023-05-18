@@ -1,77 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
 /* cairo-200 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Cairo';
-  font-style: normal;
-  font-weight: 200;
-  src: url('main/fonts/cairo-v22-latin-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-       url('main/fonts/cairo-v22-latin-200.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 200;
+    src: url('main/fonts/cairo-v22-latin-200.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('main/fonts/cairo-v22-latin-200.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* cairo-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Cairo';
-  font-style: normal;
-  font-weight: 400;
-  src: url('main/fonts/cairo-v22-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-       url('main/fonts/cairo-v22-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('main/fonts/cairo-v22-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('main/fonts/cairo-v22-latin-regular.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* cairo-500 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Cairo';
-  font-style: normal;
-  font-weight: 500;
-  src: url('main/fonts/cairo-v22-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-       url('main/fonts/cairo-v22-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 500;
+    src: url('main/fonts/cairo-v22-latin-500.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('main/fonts/cairo-v22-latin-500.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* cairo-600 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Cairo';
-  font-style: normal;
-  font-weight: 600;
-  src: url('main/fonts/cairo-v22-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-       url('main/fonts/cairo-v22-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 600;
+    src: url('main/fonts/cairo-v22-latin-600.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('main/fonts/cairo-v22-latin-600.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* cairo-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Cairo';
-  font-style: normal;
-  font-weight: 700;
-  src: url('main/fonts/cairo-v22-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-       url('main/fonts/cairo-v22-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('main/fonts/cairo-v22-latin-700.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('main/fonts/cairo-v22-latin-700.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* cairo-800 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Cairo';
-  font-style: normal;
-  font-weight: 800;
-  src: url('main/fonts/cairo-v22-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-       url('main/fonts/cairo-v22-latin-800.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 800;
+    src: url('main/fonts/cairo-v22-latin-800.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('main/fonts/cairo-v22-latin-800.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 
 /* abhaya-libre-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    src: url('main/fonts/abhaya-libre-v13-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('main/fonts/abhaya-libre-v13-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* abhaya-libre-700 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    src: url('main/fonts/abhaya-libre-v13-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('main/fonts/abhaya-libre-v13-latin-regular.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* abhaya-libre-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    src: url('main/fonts/abhaya-libre-v13-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('main/fonts/abhaya-libre-v13-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+    src: url('main/fonts/abhaya-libre-v13-latin-700.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('main/fonts/abhaya-libre-v13-latin-700.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
 
 * {
@@ -80,12 +111,12 @@
     box-sizing: border-box;
 }
 
+/* ######################## Home Page Section Begin ######################## */
 .home_page {
     width: 100%;
     height: 100vh;
     background: url('../img/home_bg.png') no-repeat;
-    background-size: 100%;
-
+    /* background-size: 100%; */
 }
 
 .my_nav {
@@ -94,6 +125,7 @@
 
 .my_nav_link {
     background: linear-gradient(90deg, #7B80FF 40%, rgba(255, 123, 123, 0) 175.17%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 23px;
@@ -102,10 +134,12 @@
 
 
 
-.my_login, .my_signup {
+.my_login,
+.my_signup {
     padding: 5px 22px 5px 22px;
     border-radius: 10px;
     font-size: 16px;
+    border: none;
 }
 
 .my_login {
@@ -125,19 +159,22 @@
 .img_anim img {
     animation: animate 5s linear infinite;
 }
+
 @keyframes animate {
-    0%,100% {
+
+    0%,
+    100% {
         transform: translateY(10px);
     }
+
     50% {
         transform: translateY(40px);
     }
 }
 
-.main > .row {
+.main>.row {
     margin: 0;
     height: 89%;
-
 }
 
 .main_title {
@@ -160,13 +197,7 @@
     bottom: 0;
 }
 
-.progress {
-    background: url("../img/progress.png") no-repeat center;
-    background-size: 100%;
-    height: 100vh;
-    width: 100%;    
-    opacity: 0.9;
-}
+
 
 @media (max-width: 768px) {
     .img_anim img {
@@ -211,4 +242,555 @@
         height: 100%;
     }
 }
+
+
+/* ######################## Home Page Section End ######################## */
+
+
+
+/* ######################## Author Page Section Begin ######################## */
+.author {
+    background: linear-gradient(258.53deg, #0009DF -0.38%, rgba(159, 114, 255, 0.81) 21.67%, rgba(217, 66, 255, 0.78) 57.42%, #6C27FF 99.93%, rgba(72, 0, 225, 0.779837) 99.93%),
+        linear-gradient(104.18deg, rgba(224, 249, 75, 0.2) 0.58%, rgba(143, 255, 0, 0.2) 13.8%, rgba(128, 195, 44, 0.2) 31.2%, rgba(105, 255, 34, 0.152608) 47.68%, rgba(62, 150, 20, 0) 69.57%, rgba(0, 0, 0, 0) 100.73%),
+        linear-gradient(255.35deg, rgba(247, 247, 247, 0) -0.06%, rgba(255, 255, 255, 0) 26.63%, rgba(0, 0, 0, 0) 99.94%);
+    height: 100%;
+    width: 100%;
+}
+
+.author_title {
+    background: radial-gradient(116.9% 9912.66% at 105.2% 50%, #DB07ED 10.42%, #7A07ED 49.07%, rgba(138, 33, 255, 0.76) 99.38%);
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.my_box {
+    height: 240px;
+    width: 350px;
+    border-radius: 15px;
+    background: #051117C9;
+}
+
+@media (max-width: 1187px) {
+    .all_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+
+
+/* ######################## Author Page Section End ######################## */
+
+
+
+
+
+/* ######################## page-3 Page Section Begin ######################## */
+
+.page-3 {
+    background: url("../img/progress.png") no-repeat center;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.colorful-title h1 {
+    font-weight: 800;
+    font-size: 64px;
+}
+
+.colorful-title {
+    background: radial-gradient(116.9% 9912.66% at 105.2% 50%, #DB07ED 10.42%, #7A07ED 49.07%, rgba(138, 33, 255, 0.76) 99.38%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.glassmorphism_box {
+    width: 550px;
+    height: 450px;
+    border-radius: 50px;
+    background-color: rgba(13, 31, 41, 0.7);
+    padding: 25px 100px;
+}
+
+.custom-email,
+.custom-passwd {
+    background-color: rgba(9, 21, 34, 1);
+    border: 1px solid rgba(205, 205, 205, 0.68);
+    border-radius: 10px;
+    padding: 12px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.custom-email::placeholder,
+.custom-passwd::placeholder {
+    font-size: 16px;
+}
+
+.my_signup_2 {
+    padding: 8px 80px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.circle {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    cursor: default;
+}
+
+.circle .box,
+.circle .box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.circle .box {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(13, 31, 41, 0.7);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    transition: all 0.2s;
+}
+
+.circle:hover .box {
+    transform: translate(-50%, -50%) scale(0.91);
+}
+
+.circle .box span {
+    /* background: -webkit-linear-gradient(left, #a445b2, #fa4299); */
+    background: linear-gradient(223.81deg, #00E5E5 8.72%, #72A5F2 50.87%, #E961FF 91.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.circle .box span {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    transform: translate(-45%, -45%);
+    transition: all 0.1s;
+}
+
+.circle:hover .box span {
+    transform: translate(-45%, -45%) scale(1.09);
+}
+
+
+/* ######################## page-3 Page Section End ######################## */
+
+
+
+/* ######################## Footer Page Section Begin ######################## */
+
+footer {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(152, 33, 133, 0.88) 0%, #140064 100%);
+}
+
+.footer_link {
+    font-size: 20px;
+    color: rgba(153, 153, 153, 1);
+    font-family: 'orbitron';
+}
+
+footer>.row {
+    margin: 0;
+    height: 89%;
+}
+
+/* ######################## Footer Page Section End ######################## */
+
+
+/* ######################## Sign Page Section Begin ######################## */
+
+.sign {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/sign_in_bg.png');
+    background-size: 100%;
+}
+
+.big_v {
+    width: 800px;
+    height: 580px;
+    border-radius: 100px;
+    background-color: rgba(13, 31, 41, 0.7);
+    padding: 60px 200px;
+}
+
+/* ######################## Sign Page Section End ######################## */
+
+
+/* ######################## 404 Page Section ######################## */
+
+.error_page {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/404.png");
+    background-size: 100%;
+}
+
+/* ######################## 404 Page Section ######################## */
+
+
+/* ######################## List Page Section Begin ######################## */
+
+.list {
+    width: 100%;
+    height: 180vh;
+    background: url('../img/home_bg.png');
+    background-image: 100%;
+}
+
+.solar_system {
+    border-radius: 28px;
+    background-color: rgba(13, 31, 41, 0.7);
+    padding: 30px 80px;
+    border: 1px solid #FFFFFF33;
+}
+
+.list-box {
+    border-radius: 28px;
+    background-color: rgba(13, 31, 41, 0.7);
+    border: 1px solid #FFFFFF33;
+    padding: 26px 40px;
+}
+
+/* ######################## List Page Section End ######################## */
+
+
+
+
+/* ######################## Detail Page Section Begin ######################## */
+
+.detail {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/home_bg.png');
+    background-image: 100%;
+}
+
+.detail-box {
+    background-color: rgba(13, 31, 41, 0.7);
+    position: fixed;
+    bottom: 0;
+    border: 1px solid #FFFFFF33;
+    border-radius: 80px 80px 0 0;
+    width: 50%;
+}
+
+/* ######################## Detail Page Section End ######################## */
+
+
+
+/* ######################## Like button Begin ######################## */
+
+*, *:before, *:after {
+  position: relative;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #FDF1F2;
+  --color-heart: #EA442B;
+  --easing: cubic-bezier(.7,0,.3,1);
+  --duration: .5s;
+}
+
+.like-button {
+    font-size: 10vmin;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0);
+    width: 1em;
+    height: 1em;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    z-index: 2;
+    -webkit-transition: -webkit-transform var(--duration) var(--easing);
+    transition: -webkit-transform var(--duration) var(--easing);
+    transition: transform var(--duration) var(--easing);
+    transition: transform var(--duration) var(--easing), -webkit-transform var(--duration) var(--easing);
+    cursor: pointer;
+  }
+
+.like-button:before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0.3em 0.6em rgba(0, 0, 0, 0.3);
+  border-radius: inherit;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+.like-button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #fff; */
+  border-radius: inherit;
+  z-index: -1;
+}
+.like-button:active:before {
+  -webkit-animation: depress-shadow var(--duration) var(--easing) both;
+          animation: depress-shadow var(--duration) var(--easing) both;
+}
+.like-button:focus:after {
+  -webkit-animation: depress var(--duration) var(--easing) both;
+          animation: depress var(--duration) var(--easing) both;
+}
+@-webkit-keyframes depress {
+  from, to {
+    -webkit-transform: none;
+            transform: none;
+  }
+  50% {
+    -webkit-transform: translateY(5%) scale(0.9);
+            transform: translateY(5%) scale(0.9);
+  }
+}
+@keyframes depress {
+  from, to {
+    -webkit-transform: none;
+            transform: none;
+  }
+  50% {
+    -webkit-transform: translateY(5%) scale(0.9);
+            transform: translateY(5%) scale(0.9);
+  }
+}
+@-webkit-keyframes depress-shadow {
+  from, to {
+    -webkit-transform: none;
+            transform: none;
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+@keyframes depress-shadow {
+  from, to {
+    -webkit-transform: none;
+            transform: none;
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+.like-wrapper {
+  display: grid;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+.like-wrapper > * {
+  margin: auto;
+  grid-area: 1 / 1;
+}
+
+.heart {
+  width: .5em;
+  height: .5em;
+  display: block;
+  -webkit-transform-origin: center 80%;
+          transform-origin: center 80%;
+}
+.heart > path {
+  stroke: var(--color-heart);
+  stroke-width: 2;
+  fill: transparent;
+  -webkit-transition: fill var(--duration) var(--easing);
+  transition: fill var(--duration) var(--easing);
+}
+.like-button:focus .heart > path {
+  fill: var(--color-heart);
+}
+.like-button:focus .heart {
+  -webkit-animation: heart-bounce var(--duration) var(--easing);
+          animation: heart-bounce var(--duration) var(--easing);
+}
+@-webkit-keyframes heart-bounce {
+  40% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  0%, 80%, 100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes heart-bounce {
+  40% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  0%, 80%, 100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/* Added wrapper to prevent layout jank with resizing particles */
+.particles {
+  width: 1px;
+  height: 1px;
+}
+
+.particle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: .1em;
+  width: .1em;
+  border-radius: .05em;
+  background-color: var(--color);
+  --percentage: calc( var(--i) / var(--total-particles) );
+  --Θ: calc( var(--percentage) * 1turn );
+  -webkit-transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(0) scaleY(0);
+          transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(0) scaleY(0);
+  -webkit-transition: all var(--duration) var(--easing);
+  transition: all var(--duration) var(--easing);
+}
+.like-button:focus .particle {
+  -webkit-animation: particles-out calc(var(--duration) * 1.2) var(--easing) forwards;
+          animation: particles-out calc(var(--duration) * 1.2) var(--easing) forwards;
+}
+@-webkit-keyframes particles-out {
+  50% {
+    height: .3em;
+  }
+  50%, 60% {
+    height: .3em;
+    -webkit-transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(0.8em) scale(1);
+            transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(0.8em) scale(1);
+  }
+  60% {
+    height: .2em;
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(1em) scale(0);
+            transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(1em) scale(0);
+  }
+}
+@keyframes particles-out {
+  50% {
+    height: .3em;
+  }
+  50%, 60% {
+    height: .3em;
+    -webkit-transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(0.8em) scale(1);
+            transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(0.8em) scale(1);
+  }
+  60% {
+    height: .2em;
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(1em) scale(0);
+            transform: translate(-50%, -50%) rotate(var(--Θ)) translateY(1em) scale(0);
+  }
+}
+.ripple {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
+}
+.ripple:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0.4em solid var(--color-heart);
+  border-radius: inherit;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+.like-button:focus .ripple:before {
+  -webkit-animation: ripple-out var(--duration) var(--easing);
+          animation: ripple-out var(--duration) var(--easing);
+}
+@-webkit-keyframes ripple-out {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(5);
+            transform: scale(5);
+  }
+}
+@keyframes ripple-out {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(5);
+            transform: scale(5);
+  }
+}
+
+/* Reset the animation when clicking again! */
+.like-button:focus {
+  pointer-events: none;
+  cursor: normal;
+}
+
+
+/* ######################## Like button End ######################## */
+
+
+/* ######################## Profile page Section Begin ######################## */
+
+.progress_big {
+    border-radius: 28px;
+    background-color: rgba(13, 31, 41, 0.7);
+    padding: 40px 80px;
+    border: 1px solid #FFFFFF33;
+    width: 50%;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    background: url('../img/home_bg.png');
+    background-image: 100%;
+}
+
+/* ######################## Profile page Section End ######################## */
+
+
+
 

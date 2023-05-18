@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/main/css/main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+</head>
+<body>
+    <div class="sign">        
+    
+    <!-- navbar section -->
+        <nav class="navbar navbar-expand-lg my_nav">
+          <div class="container-fluid">
+            <a class="navbar-brand ps-3" href="#">
+              <img
+                src="assets/main/img/cosmic.svg"
+                alt="navbar logo"
+                height="50px"
+                width="200px"
+                class="nav_logo"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active my_nav_link"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link my_nav_link" href="#">Favorites</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link my_nav_link" href="#">Stars</a>
+                </li>
+              </ul>
+              <div class="btn my_login">LOG IN</div>
+              <div class="btn my_signup ms-4">SIGN UP</div>
+            </div>
+          </div>
+        </nav>
+
+      <!-- navbar section -->
+
+      <div class="d-flex justify-content-center mt-4">
+        <div class="glassmorphism_box big_v d-flex justify-content-center">
+          <form action="#" class="d-flex w-100 flex-column gap-4">
+            <h1 class="text-light fw-bold mb-4">Sign Up</h1>
+            <div>
+              <div class="d-flex flex-column gap-3">
+                <input type="email" class="custom-email" name="email" id="email" placeholder="Email" required>
+                <input type="password" class="custom-passwd" name="passwd" id="passwd" placeholder="Password" required>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+
+                <button class="btn my_signup my_signup_2 mt-2">Sign up</button>
+            </div>
+  
+            <div class="d-flex justify-content-between">
+              <div style="width: 25%">
+                <hr style="border: 1px #ffffff solid;">
+              </div>
+              <span class="mt-1 text-light"><a href="#">Sign in</a> or Log in with</span>
+              <div style="width: 25%">
+                <hr style="border: 1px #ffffff solid;">
+              </div>
+            </div>
+            <div class="social_auth d-flex justify-content-evenly">
+              <a href="#"><img src="assets/main/img/twitter.png" alt="twitter icon"></a>
+              <a href="#"><img src="assets/main/img/facebook_icon.png" alt="facebook icon"></a>
+              <a href="#"><img src="assets/main/img/google_icon.png" alt="google icon"></a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/main/js/main.js"></script>
+</body>
+</html>
